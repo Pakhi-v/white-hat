@@ -1,1 +1,1 @@
-# white-hat
+# Home section of website
