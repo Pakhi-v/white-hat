@@ -1,1 +1,1 @@
-# Home section of website
+# Home section and Prevent section of website 
