@@ -1,0 +1,85 @@
+<!-- vaccine section start -->
+<section class="Vaccines" id="vaccines">
+
+    <div class="retard">
+        <h4>VACCINES</h4>
+        <br>
+        <button class="tablink" onclick="openPage('Covid-19', this, 'red')" id="defaultOpen">Covid-19 Vaccines</button>
+        <button class="tablink" onclick="openPage('Covishield', this, 'red')">Covishield</button>
+        <button class="tablink" onclick="openPage('Covaxin', this, 'red')">Covaxin</button>
+        <button class="tablink" onclick="openPage('Sputnik', this, 'red')">Sputnik</button>
+    
+
+<div id="Covid-19" class="tabcontent">
+  <h3>Covid-19 Vaccines</h3>
+  <h2>Importance of COVID-19 vaccines.</h2>
+  <p>As world is in the midst of a COVID-19 pandemic, countries across the globe are racing to develop and deploy safe and effective vaccines. Vaccines are a critical new tool in the battle against COVID-19 and it is safe to say that safe and effective vaccines are the gamechangers.
+
+    But, why do we need vaccination?
+    
+     The vaccine reduces your risk of infection.
+     The vaccine protects against severe illness.
+     The vaccine (eventually) will help us ditch the masks.
+     The vaccine will help you reconnect with friends and family.
+    India currently has two vaccines – homegrown Covaxin and Serum Institute of India’s Covishield. Earlier this month, Russia's Sputnik V was also given emergency use authorisation by India's drug regulator.</p>
+    <div class="rest">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uWGTciX795o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+<div id="Covishield" class="tabcontent">
+  <h3>Covishield</h3>
+  <p>Covishield® (AstraZeneca's vaccine manufactured by Serum Institute of India)
+    Covishield® vaccine, manufactured by the Serum Institute of India, is a Viral Vector-based Technology which is also used to manufacture Ebola vaccine. It is based on the same patent technology as the Astrazeneca vaccine.
+<br> On The Same Patent Technology As The Astrazeneca Vaccine.
+
+Has Completed Its Phase III Trials In UK And The Bridging Trial In India.
+Approved For Use On Individuals 18 Years Of Age And Older.
+Requires Two Full Doses With A Gap Of Four-Eight Weeks.
+Not To Be Taken By People Severely Allergic To Any Of Its Ingredients.</p> 
+<img src="ncovishield.JPG" alt="" style="height: 70%;">
+   
+</div>
+
+<div id="Covaxin" class="tabcontent">
+  <h3>Covaxin</h3>
+  <p>Covaxin® (manufactured by Bharat Biotech Limited)
+    Covaxin® vaccine, manufactured by the Bharat Biotech, is a Whole-virion Inactivated Coronavirus Vaccine which is also used to manufacture vaccines like Influenza, Rabies and Hepatitis- A.
+    
+     Has completed their Phase I & II trials.
+     Approved and available in India. Made in India.
+     Requires two full doses with a gap of 28 days.
+     Not to be taken by people who have allergies, fever or bleeding disorder, weaker immunity or are on a medicine that affects their immune system.
+    Its first interim data indicates efficacy of 81 percent at a four-week interval between two doses.</p>
+    <img src="covaxin.JPG" alt="">
+</div>
+
+<div id="Sputnik" class="tabcontent">
+  <h3>Sputnik</h3>
+  <p>The Sputnik V vaccine developed by Russia's Gamelya Center and bankrolled by the Russian government sovereign wealth fund, RDIF, is based on the adenovirus vector platform.
+
+    Safety: Sputnik V updates from Russia and other countries suggest that the vaccine is safe with mostly mild-to-moderate side effects.
+    Efficacy: Sputnik V data indicates 91.6 percent efficacy, as confirmed by details published in the Lancet.
+    Availability: Approved in India, and is expected to be available from May. To be made in India.</p>
+    <img src="sputnik.JPG" alt="" height="80%">
+   </div>
+        </div>
+        <script>
+        function openPage(pageName,elmnt,color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+          }
+          
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+          </script>
+    <!--vaccines section ends-->
