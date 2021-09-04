@@ -1,0 +1,84 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+    padding: 40px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+  }
+
+.retard{
+    font-size: 20px;
+    text-align: center;
+    color: var(--blue);
+}
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+.retard{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: rgb(17, 9, 9);
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Covid-19{background-color:rgb(182, 223, 241);}
+#Covishield {background-color: rgb(182, 223, 241);}
+#Covaxin {background-color:rgb(182, 223, 241);}
+#sputnik {background-color: rgb(182, 223, 241);}
+
+#Covid-19{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+#Covishield{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#Covaxin{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+#sputnik{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
