@@ -1,0 +1,52 @@
+ <!-- FAQS SECTION STARTS-->
+    <section class="faq" id="faq">
+
+        <h1 class="head1">Frequently Asked Questions (FAQS)</h1>
+        <br>
+        <br>
+        <button class="accordion"> &#9658; Where should I register for vaccination?</button>
+<div class="panel">
+  <p>Register on the Co-WIN Portal and schedule your vaccination appointment.</p>
+</div>
+
+<button class="accordion"> &#9658; What are the vaccines being used in India currently?</button>
+<div class="panel">
+  <p>Two vaccines that have been granted emergency use authorization by the Central Drugs Standard Control Organization (CDSCO) in India are Covishield® (AstraZeneca's vaccine manufactured by Serum Institute of India) and Covaxin® (manufactured by Bharat Biotech Limited). Earlier this month, Russia's Sputnik V was also given emergency use authorisation by India's drug regulator.</p>
+</div>
+
+<button class="accordion">  &#9658; What is the dose schedule of both the vaccines?</button>
+<div class="panel">
+  <p>The time interval between two doses of the Covishield vaccine has been extended from four-eight weeks to 12-16 weeks. The second dose of Covaxin can be taken four to six weeks after the first.</p>
+</div>
+
+<button class="accordion">  &#9658; Will I get any certificate that I am vaccinated?</button>
+<div class="panel">
+  <p>Yes, a provisional certificate would be provided after the first dose. On completion of second dose, when you receive the message for completion of schedule it would include a link to download certification of vaccination for your perusal. This certificate can be then saved in digi-locker.</p>
+</div>
+
+<button class="accordion">  &#9658;What documents are required for registration of eligible beneficiary?</button>
+<div class="panel">
+  <p>Any of the below mentioned ID with photo may be produced at the time of registration: AADHAAR CARD , Driving license , PAN CARD ,Passport , VOTER ID.</p>
+</div>
+</section>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</section>
+
+<!--faq section ends-->
